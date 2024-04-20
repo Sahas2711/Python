@@ -1,0 +1,5 @@
+f=open("file.txt","r")
+data=f.read()
+count=len(data.replace("\n","").replace(" ","").replace("\t",""))
+print(f"file consist of the {count} characters")
+f.close()

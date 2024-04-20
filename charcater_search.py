@@ -1,0 +1,7 @@
+f=open("file.txt","r")
+data=f.read()
+print(data)
+count = data.count('s')
+print(count)
+f.close()
+print(f"Number of 's' in the file: {count}")

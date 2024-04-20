@@ -1,0 +1,5 @@
+f=open("file.txt","r")
+data=f.read()
+word_count = len(data.split())
+print(f"file consist of {word_count} words")
+f.close()
